@@ -3,5 +3,6 @@ b=int(input('Enter 2st number:'))
 if a>b:
     result= a-b
     print(result)
-else:
-    print("a<b")
+if a<b:
+    result= a+b 
+    print(result)
